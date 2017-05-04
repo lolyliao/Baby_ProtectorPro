@@ -8,10 +8,20 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+
+@protocol WXDelegate <NSObject>
+
+
+-(void)loginSuccessByCode:(NSString *)code;
+
+@end
+@interface AppDelegate : UIResponder <UIApplicationDelegate,WXApiDelegate>
+
 
 @property (strong, nonatomic) UIWindow *window;
 
+@property ( nonatomic , weak ) id <WXDelegate>  wxDelegate;
+
+
 
 @end
-

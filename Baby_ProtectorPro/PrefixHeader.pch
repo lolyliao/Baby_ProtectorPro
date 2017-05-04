@@ -1,0 +1,49 @@
+//
+//  PrefixHeader.pch
+//  Baby_ProtectorPro
+//
+//  Created by Macx on 2017/4/11.
+//  Copyright © 2017年 Baby_Protector. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "SourceMacro.h"
+#import "AFNetworking.h"
+#import "BPHttpRequest.h"
+#import "requestMacro.pch"
+#import "UIView+Frame.h"
+#import "UIColor+ColorUtil.h"
+#import "UIView+Toast.h"
+#import "UILabel+AdaptiveFrame.h"
+#import "DataUtility.h"
+#import "NSString+StringUtil.h"
+#import "UIButton+Utility.h"
+#import "Color.h"
+#import "Font.h"
+#import "Frame.h"
+#import "Unit.h"
+#import "Utility.h"
+#import "UIImage+AFNetworking.h"
+#import "IQKeyboardManager.h"
+#import "IQKeyboardReturnKeyHandler.h"
+#import "DockController.h"
+#import "WXApi.h"
+#import "Masonry.h"
+#import "BPNavView.h"
+#import "JSTextView.h"
+#import "CustomDatePickerView.h"
+#import "SDAutoLayout.h"
+#import "NSDate+Util.h"
+#import "UIImageView+WebCache.h"
+#import "MJRefresh.h"
+#import "SLSlideMenu.h"
+#import "IsFirst.h"
+#import "SCCatWaitingHUD.h"
+#import "SearchTool.h"
+#import "SurePlaceholderView.h"
+
+
+
+#endif /* PrefixHeader_pch */

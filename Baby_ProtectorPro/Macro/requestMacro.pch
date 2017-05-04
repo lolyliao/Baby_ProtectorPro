@@ -1,0 +1,33 @@
+//
+//  requestMacro.pch
+//  Baby_ProtectorPro
+//
+//  Created by Macx on 2017/4/11.
+//  Copyright © 2017年 Baby_Protector. All rights reserved.
+//
+
+#ifndef requestMacro_pch
+#define requestMacro_pch
+
+#define ERRCODE @"errcode"
+#define CODE0 @"缺少参数"
+#define CODE2 @"权限不足"
+#define CODE3 @"gr_token错误或过期"
+#define CODE4 @"错误的type值"
+#define CODE5 @"未知错误"
+
+#define APPUSEURL  @"https://guaerdian.com/api/appuser.php"
+
+#define APPCHIOSE  @"https://guaerdian.com/api/person.php"
+
+#define APPMAINURL  @"https://guaerdian.com/api/obtain.php"
+
+#define APPCLASSURL  @"https://guaerdian.com/api/bkClass.php"
+
+#define APPARTICALURL  @"https://guaerdian.com/api/bkArticle.php"
+
+#define APPCOMMENYURL  @"https://guaerdian.com/api/comment.php"
+//搜索接口
+#define APPSEARCHURL  @"https://guaerdian.com/api/bkSearch.php"
+
+#endif /* requestMacro_pch */
